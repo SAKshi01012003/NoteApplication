@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="box">
+            <img src="../images/icon2.png" alt="" id="logo">
+            <h1 id="appName">KitKat</h1>
+        </div>
+        <button id="log-in-btn" >Log in</button>
+    </div>
+    <div class="main">
+        <h2 id="tagline">Capture Every Thought, Never Miss a Moment </h2>
+
+        <img src="../images/homepage img2.jpeg" id="homeImg">
+    </div>
+</body>
+<script>
+    const loginHomebtn= document.getElementById("log-in-btn");
+    loginHomebtn.addEventListener("click",()=>{
+        window.location.href="../HTML/login.html"
+    }) 
+</script>
+</html>

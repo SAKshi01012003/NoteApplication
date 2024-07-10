@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/styke.css">
+</head>
+
+<body>
+    <div class="head">
+        <img src="../images/icon2.png" alt="" id="icon">
+        <h2 id="tagline">"Capture Every Thought, Never Miss a Moment."</h2>
+    </div>
+
+    <div class="outer">
+        <div class="inner1">
+            <button id="addnote">Add note</button>
+        </div>
+        <div class="inner2">
+            <div class="samplenote" id="blueprint" style="display: none;">
+                <input type="text" name="" id="title" placeholder="Title">
+                <textarea class="noteContent" placeholder="Write here..." rows="10" cols="20"></textarea>
+                <button id="deleteBtn" class="btn">Delete</button>
+            </div>
+        </div>
+
+        <dialog>
+            <input type="text" class="pageTitle" placeholder="Title">
+            <textarea class="pagetext" rows="18" cols="45"></textarea>
+            <button id="save" class="btn">Save</button>
+        </dialog>
+    </div>
+
+    <!-- Load Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+    <script type="module" src="../JS/script1.js"></script>
+</body>
+</html>

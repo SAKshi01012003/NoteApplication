@@ -1,0 +1,68 @@
+body{
+    /* background-color: #8697C4; */
+    background-image: url("/images/back1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+.authContainer{
+    width: 26vw;
+    height: 60vh;
+    /* border: 2px solid orange; */
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    background-color: #ffffff;
+    opacity: 0.8;
+
+    border: 3px solid #EDEAF5;
+    /* background-color: #8697C4; */
+
+
+}
+
+.authForm{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid gray; */
+    margin: 10px;
+    
+}
+.formElement{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 25px;  
+    border-radius: 5px;  
+} 
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+    /* border: 2px solid yellow; */
+    margin: 15px;
+}
+.btn{
+    height: 2.2rem;
+    font-size: 1rem;
+    width: 309px;
+    background-color: #3D52A0;
+    color: white;
+    border: 2px solid #7091E6;
+}
+.text{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+.titleFont {
+  font-family: "Playwrite NL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

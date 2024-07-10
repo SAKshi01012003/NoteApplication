@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: #EDEAF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+#logo{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    /* position: absolute; */
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+   
+}
+#homeImg{
+    height: 73vh;
+    width: 40vw;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+#appName{
+    margin: 1rem;
+    font-family: "Merienda", cursive;
+    font-weight: weight;
+
+}
+#log-in-btn{
+    width: 100px;
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3D52A0;
+    color: white;
+    border: 2px solid #7091E6;
+}
+.main{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tagline{
+    font-size: 2rem;
+}
